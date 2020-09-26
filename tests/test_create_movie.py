@@ -2,9 +2,9 @@ import json
 
 from tests.BaseCase import BaseCase
 
-class TestUserLogin(BaseCase):
+class TestCreateMovie(BaseCase):
 
-    def test_successful_login(self):
+    def test_successful_create_movie(self):
         # Given
         email = "paurakh011@gmail.com"
         password = "mycoolpassword"
